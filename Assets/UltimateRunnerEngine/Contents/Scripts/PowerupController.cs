@@ -391,21 +391,21 @@ public class PowerupController : MonoBehaviour
 
         words.Clear();
 
-        words.Add("Zebra");
-        words.Add("Snake");
-        words.Add("Spider");
-        words.Add("Jungle");
-        words.Add("Parrot");
-        words.Add("Monkey");
-        words.Add("Bee");
-        words.Add("Lion");
-        words.Add("Tiger");
-        words.Add("Duck");
-        words.Add("Frog");
-        words.Add("Owl");
-        words.Add("Bear");
-        words.Add("Rabbit");
-        words.Add("Racoon");
+        words.Add("Invader");
+        words.Add("Zim");
+        words.Add("Irken");
+        words.Add("Dib");
+        words.Add("GIR");
+        words.Add("Gaz");
+        words.Add("Membrane");
+        words.Add("Tacos");
+        words.Add("PAK");
+        words.Add("Paranormal");
+        words.Add("Conquest");
+        words.Add("Vortian");
+        words.Add("Meekrob");
+        words.Add("Florpus");
+        words.Add("Infiltration");
 
     }
 

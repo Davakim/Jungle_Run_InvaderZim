@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 11403034}
   - component: {fileID: 11476124}
   m_Layer: 0
-  m_Name: Currency
+  m_Name: Drip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
