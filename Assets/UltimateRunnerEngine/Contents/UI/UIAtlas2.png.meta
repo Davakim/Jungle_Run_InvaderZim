@@ -1,0 +1,999 @@
+fileFormatVersion: 2
+guid: e6a573987352ac54a8d7af696ff7c34b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OvalBlackPanel
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 902
+        width: 269
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee7ce454a787e428de9f52441788a6
+      internalID: 694654366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackTransition
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 856
+        width: 155
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 9, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ee6a9a6c659b498aab11012745901
+      internalID: 626797838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OvalPanelLarge
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 936
+        width: 519
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e995bf9d9d1f7ff4f95044525070d17d
+      internalID: -471303719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 838
+        width: 82
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914e65afce352854387d43777179e18e
+      internalID: -1573347831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button1
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 942
+        width: 180
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a5e10257b70e74aa2d22d78361b1de
+      internalID: -175840224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HomeButton
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 895
+        width: 131
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4789f42255ba96343a8f9d085c4011af
+      internalID: 469663363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 890
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1f9310f45b50c4ea285f67ebde8e09
+      internalID: -1260241708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 569
+        width: 451
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c17ee962a4eb74a848c7e62f6da26e
+      internalID: -939179836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vacuum
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 631
+        width: 262
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a3e8b0a480be48a2693f2ae5d2777
+      internalID: -646862455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScoreIcon
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 225
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9645becfa52d32844bf89a4396b47678
+      internalID: 1260856802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighScoreIcon
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 707
+        width: 198
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a0cfe8a78c51649b83803b5e488327
+      internalID: 437747696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 655
+        width: 98
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe2abdb8891c584a86bafc4ab4bf52e
+      internalID: -1412759689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsButton
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 832
+        width: 142
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c98c019fe6822469d84974e0d7b20f
+      internalID: -710148600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyButton
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 776
+        width: 134
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0a43c3722ec2b48aefaf9dae9fadd5
+      internalID: 1652126506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 772
+        width: 90
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9e025b23943fc4f9715236cb158e8d
+      internalID: -2037824362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIAtlas2_15
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 807
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765dbb15411a3243ac85dad2a6b5ba6
+      internalID: 678715123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseButton
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 703
+        width: 143
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b9274c9ea4c242873f3f9f51b4636
+      internalID: -1392823683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bag
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 524
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640d6fb3d8ede4f459c59302da83c47b
+      internalID: 660209447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeArrow
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 522
+        width: 123
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f51951d0c2973469c90a005d40e198
+      internalID: 451093531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIAtlas2_19
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 683
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd63c8c67f646484fb3d13df98a71662
+      internalID: 1062337126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OkButton
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 579
+        width: 144
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3dc20467b016d46abba0ee9ae498f2
+      internalID: 1534709849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResumeButton
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 641
+        width: 230
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da8c42af6e5d63499dcac7ad5eb8bb7
+      internalID: -1709966160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScorePanel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 451
+        height: 621
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e7c527ad6e09e499e5f9bdf0cd1bf8
+      internalID: 52597354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VignetteOverlay
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 510
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b908b9df18254154f930bff233ac4ed1
+      internalID: -1820432458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 385
+        width: 114
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818943ab322450343b00de6046897402
+      internalID: 301116184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatMode
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 377
+        width: 173
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530aeef79932ac24ea8d5ae0b658e917
+      internalID: 1589140101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 511
+        width: 232
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a42e59d68badee44a3c8feeb3ebd1e8
+      internalID: 109254196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsToggle
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 498
+        width: 148
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf6092896425e34ca60742d3d8c7051
+      internalID: 1153668757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyButtonLarge
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 386
+        width: 233
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96731dc305604894aab0b284411690a6
+      internalID: 1394363259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoButton
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 384
+        width: 138
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57406770281738479741f7c08d17021
+      internalID: -952481708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesButton
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 383
+        width: 132
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0ecacf385fb8f44b81ea4c809cae1a
+      internalID: -675936753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button2
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 379
+        width: 171
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed359bf9ba54b4748a27e1d96382f172
+      internalID: -1323224549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPanel
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 0
+        width: 521
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d3653ebee8bd8409c0ec5b5e50024f
+      internalID: 749119520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPanelLarge
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 244
+        width: 326
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc019f58cf2bff49a956f18dafe2cba
+      internalID: 978877209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScorePanelLarge
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 125
+        width: 325
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6f57087e23c9349b896ccf89dd3d39
+      internalID: -2009941134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIAtlas2_35
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 176
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6c80b59d4ad244ba5b607502bfca8e
+      internalID: -220177683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progress
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 127
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469e1ce30a8946f44a9d0b86d0419642
+      internalID: 1458929805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingPanel
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4
+        width: 350
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d13e7d3910f3d42b86d5da20f171e8
+      internalID: -1892119513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopButton
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1
+        width: 144
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64c230c5b3271a4c9224f5d4d5040b9
+      internalID: 976669134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bag: 660209447
+      BlackTransition: 626797838
+      Bomb: 301116184
+      Button1: -175840224
+      Button2: -1323224549
+      Coins: -1260241708
+      CombatMode: 1589140101
+      EmptyButton: 1652126506
+      EmptyButtonLarge: 1394363259
+      Hand: -1412759689
+      HighScoreIcon: 437747696
+      HomeButton: 469663363
+      LargeArrow: 451093531
+      LoadingPanel: -1892119513
+      NoButton: -952481708
+      OkButton: 1534709849
+      OvalBlackPanel: 694654366
+      OvalPanelLarge: -471303719
+      PauseButton: -1392823683
+      Pineapple: -1573347831
+      PlayButton: 109254196
+      Progress: 1458929805
+      ResumeButton: -1709966160
+      Room: -939179836
+      ScoreIcon: 1260856802
+      ScorePanel: 52597354
+      ScorePanelLarge: -2009941134
+      SettingsButton: -710148600
+      SettingsToggle: 1153668757
+      ShopButton: 976669134
+      UIAtlas2_0: -1230605858
+      UIAtlas2_15: 678715123
+      UIAtlas2_19: 1062337126
+      UIAtlas2_35: -220177683
+      UIAtlas_18: -2037824362
+      Vacuum: -646862455
+      VignetteOverlay: -1820432458
+      WoodPanel: 749119520
+      WoodPanelLarge: 978877209
+      YesButton: -675936753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
