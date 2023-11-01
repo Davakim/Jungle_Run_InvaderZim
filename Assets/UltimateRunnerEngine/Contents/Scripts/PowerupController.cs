@@ -421,7 +421,7 @@ public class PowerupController : MonoBehaviour
     {
         if (lblCollectedLetterCount != null)
         {
-            lblCollectedLetterCount.text = activeWord.Length.ToString() + "/" + collectedWord.ToString();
+            lblCollectedLetterCount.text = collectedWord.ToString() + "/" + activeWord.Length.ToString();
         }
     }
 
@@ -525,7 +525,7 @@ public class PowerupController : MonoBehaviour
     {
         if (lblCollectedFruitCount != null)
         {
-            lblCollectedFruitCount.text = activeFruits.ToString() + "/" + collectedFruits.ToString();
+            lblCollectedFruitCount.text = collectedFruits.ToString() + "/" + activeFruits.ToString();
         }
     }
 
