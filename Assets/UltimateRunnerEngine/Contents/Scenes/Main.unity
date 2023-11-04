@@ -1398,7 +1398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &90
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,7 +2412,7 @@ GameObject:
   - component: {fileID: 1382}
   - component: {fileID: 1674}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image TotalScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3877,7 +3877,7 @@ GameObject:
   - component: {fileID: 1402}
   - component: {fileID: 1714}
   m_Layer: 5
-  m_Name: Image2
+  m_Name: Board TotalScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8399,7 +8399,7 @@ GameObject:
   - component: {fileID: 1449}
   - component: {fileID: 1806}
   m_Layer: 5
-  m_Name: Image1
+  m_Name: Board DRIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27344,18 +27344,18 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1521}
-  - {fileID: 32346203}
-  - {fileID: 1831492099}
   - {fileID: 1582}
-  - {fileID: 1500}
-  - {fileID: 1555133850}
-  - {fileID: 890101679}
-  - {fileID: 1591}
-  - {fileID: 1603}
-  - {fileID: 739128349}
-  - {fileID: 1820264839}
   - {fileID: 1145294504}
+  - {fileID: 1591}
+  - {fileID: 1521}
+  - {fileID: 1500}
+  - {fileID: 1603}
+  - {fileID: 1831492099}
+  - {fileID: 1555133850}
+  - {fileID: 739128349}
+  - {fileID: 32346203}
+  - {fileID: 890101679}
+  - {fileID: 1820264839}
   m_Father: {fileID: 1545}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -27593,8 +27593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -334, y: -199}
-  m_SizeDelta: {x: 110, y: 94}
+  m_AnchoredPosition: {x: -334, y: -218.5}
+  m_SizeDelta: {x: 110, y: 121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1501
 RectTransform:
@@ -28000,7 +28000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: -199}
+  m_AnchoredPosition: {x: -183, y: -232}
   m_SizeDelta: {x: 465, y: 161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1522
@@ -29596,14 +29596,14 @@ RectTransform:
   m_GameObject: {fileID: 639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999285, y: 0.99999285, z: 0.99999285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.25, y: -198.99994}
+  m_AnchoredPosition: {x: -132.25, y: -231.99991}
   m_SizeDelta: {x: 293.5, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1604
@@ -109361,7 +109361,7 @@ GameObject:
   - component: {fileID: 32346205}
   - component: {fileID: 32346204}
   m_Layer: 5
-  m_Name: Image2 (2)
+  m_Name: Board Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109383,7 +109383,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: -455}
+  m_AnchoredPosition: {x: -183, y: -554}
   m_SizeDelta: {x: 465, y: 161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32346204
@@ -110301,14 +110301,14 @@ RectTransform:
   m_GameObject: {fileID: 739128348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999285, y: 0.99999285, z: 0.99999285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.25, y: -320}
+  m_AnchoredPosition: {x: -132.25, y: -390.5}
   m_SizeDelta: {x: 293.5, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &739128350
@@ -110859,7 +110859,7 @@ GameObject:
   - component: {fileID: 890101681}
   - component: {fileID: 890101680}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Image Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110874,14 +110874,14 @@ RectTransform:
   m_GameObject: {fileID: 890101678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99997014, y: 0.99997014, z: 0.99997014}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.33, y: 1.33, z: 1.33}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -334, y: -454}
+  m_AnchoredPosition: {x: -331, y: -537}
   m_SizeDelta: {x: 80, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890101680
@@ -111184,7 +111184,7 @@ GameObject:
   - component: {fileID: 1145294506}
   - component: {fileID: 1145294505}
   m_Layer: 5
-  m_Name: Image 3
+  m_Name: Image DRIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112098,7 +112098,7 @@ GameObject:
   - component: {fileID: 1555133852}
   - component: {fileID: 1555133851}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Image Distance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112113,14 +112113,14 @@ RectTransform:
   m_GameObject: {fileID: 1555133849}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99997014, y: 0.99997014, z: 0.99997014}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.21, y: 1.21, z: 1.21}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -334, y: -323}
+  m_AnchoredPosition: {x: -331, y: -374.00003}
   m_SizeDelta: {x: 80, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1555133851
@@ -112652,7 +112652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.25, y: -449}
+  m_AnchoredPosition: {x: -132.25, y: -547.99994}
   m_SizeDelta: {x: 293.5, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820264840
@@ -112724,7 +112724,7 @@ GameObject:
   - component: {fileID: 1831492101}
   - component: {fileID: 1831492100}
   m_Layer: 5
-  m_Name: Image2 (1)
+  m_Name: Board Distance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112739,14 +112739,14 @@ RectTransform:
   m_GameObject: {fileID: 1831492098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999285, y: 0.99999285, z: 0.99999285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: -326.5}
+  m_AnchoredPosition: {x: -183, y: -397}
   m_SizeDelta: {x: 465, y: 161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831492100
