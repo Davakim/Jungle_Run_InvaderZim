@@ -1522,6 +1522,7 @@ public class Controller : MonoBehaviour {
 
               GameGlobals.Instance.audioController.playSoundPitched("UIQuestion", pitch);
               GameGlobals.Instance.achievements.increaseScore(selectedPoint);
+              GameGlobals.Instance.achievements.increaseEnnemi(selectedPoint);
 
                Transform pointsRoot = createdEffetc.transform.Find("pointsGroup");
                if (pointsRoot != null)

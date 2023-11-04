@@ -13,6 +13,12 @@ public class Achievements : MonoBehaviour
     public int currentScore;
 
     [HideInInspector]
+    public int currentDistance;
+
+    [HideInInspector]
+    public int currentEnnemi;
+
+    [HideInInspector]
     public int totalCoins;
     [HideInInspector]
     public int totalScore;
@@ -24,7 +30,7 @@ public class Achievements : MonoBehaviour
 
 
     public Text lblMainMenuTotalCoins, lblMainMenuTotalScore,lblMainMenuHighScore;
-    public Text lblHudCoins, lblHudScore;
+    public Text lblHudCoins, lblHudScore, lblHudDistance, lblHudEnnemi;
     public Text lblScorePanelCollectedCoins, lblScorePanelCollectedScore;
     public Text lblScorePanelTotalCoins, lblScorePanelTotalScore;
 
@@ -43,10 +49,13 @@ public class Achievements : MonoBehaviour
     {
         currentCoins = 0;
         currentScore = 0;
+        currentDistance = 0;
+        currentEnnemi = 0;
 
         totalCoins = PlayerPrefs.GetInt("totalCoins", 0);
         totalScore = PlayerPrefs.GetInt("totalScore", 0);
         highScore = PlayerPrefs.GetInt("highscore", 0);
+
 
         if (highScore <= 0)
         {
@@ -56,6 +65,7 @@ public class Achievements : MonoBehaviour
         lblMainMenuTotalCoins.text = totalCoins.ToString();
         lblMainMenuTotalScore.text = totalScore.ToString();
         lblMainMenuHighScore.text = highScore.ToString();
+        
 
 
         lblScorePanelTotalCoins.text = totalCoins.ToString();
@@ -71,6 +81,7 @@ public class Achievements : MonoBehaviour
     {
         PlayerPrefs.SetInt("totalCoins", 0);
         PlayerPrefs.SetInt("totalScore", 0);
+
     }
 
 
@@ -86,6 +97,18 @@ public class Achievements : MonoBehaviour
     {
         if (scoresLock == true) return;
         currentScore += score;
+    }
+
+    public void increaseDistance(int distance)
+    {
+        if (scoresLock == true) return;
+        currentDistance += distance;
+    }
+
+    public void increaseEnnemi(int ennemi)
+    {
+        if (scoresLock == true) return;
+        currentEnnemi += ennemi;
     }
 
 
@@ -361,6 +384,8 @@ public class Achievements : MonoBehaviour
         {
             hudTimeEplased = 0;
             increaseScore(1);
+            increaseDistance(1);
+
         }
         else
         {
@@ -403,9 +428,11 @@ public class Achievements : MonoBehaviour
 
         lblHudCoins.text = currentCoins.ToString();
         lblHudScore.text = currentScore.ToString();
+        lblHudDistance.text = currentDistance.ToString();
 
         lblScorePanelCollectedCoins.text = currentCoins.ToString();
         lblScorePanelCollectedScore.text = currentScore.ToString();
+        lblHudEnnemi.text = currentEnnemi.ToString();
 
     }
 
