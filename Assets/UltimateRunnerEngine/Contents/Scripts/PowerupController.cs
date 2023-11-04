@@ -391,7 +391,8 @@ public class PowerupController : MonoBehaviour
 
         words.Clear();
 
-        words.Add("Invader");
+        words.Add("I");
+        /*words.Add("Invader");
         words.Add("Zim");
         words.Add("Irken");
         words.Add("Dib");
@@ -405,7 +406,7 @@ public class PowerupController : MonoBehaviour
         words.Add("Vortian");
         words.Add("Meekrob");
         words.Add("Florpus");
-        words.Add("Infiltration");
+        words.Add("Infiltration");*/
 
     }
 
